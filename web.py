@@ -13,13 +13,13 @@ st.set_page_config(
 )
 
 # Load the models
-diabetes_model = pickle.load(open(r"C:\Users\HP\Desktop\PDO1\training_model\diabetes_model.sav" ,'rb'))
-heart_model=pickle.load(open(r"C:\Users\HP\Desktop\PDO1\training_model\heart_model.sav",'rb'))
-parkinson_model=pickle.load(open(r"C:\Users\HP\Desktop\PDO1\training_model\parkinson_model.sav",'rb'))
+diabetes_model = pickle.load(open(r"diabetes_model.sav" ,'rb'))
+heart_model=pickle.load(open(r"heart_model.sav",'rb'))
+parkinson_model=pickle.load(open(r"parkinson_model.sav",'rb'))
 
-scaler_diabetes = pickle.load(open(r"C:\Users\HP\Desktop\PDO1\training_model\scaler.sav", 'rb'))
-scaler_heart=pickle.load(open(r"C:\Users\HP\Desktop\PDO1\training_model\scaler1.sav",'rb'))
-scaler=pickle.load(open(r"C:\Users\HP\Desktop\PDO1\training_model\scaler2.sav","rb"))
+scaler_diabetes = pickle.load(open(r"scaler.sav", 'rb'))
+scaler_heart=pickle.load(open(r"scaler1.sav",'rb'))
+scaler=pickle.load(open(r"scaler2.sav","rb"))
 # Sidebar for navigation
 with st.sidebar:
     selected = option_menu(
