@@ -31,7 +31,7 @@ with st.sidebar:
     )
 
 # Diabetes Prediction Page
-if selected == "Diabetes Prediction":
+if selected == "Diabetes  Prediction":
     st.title("Diabetes Prediction ")
 
     # Input fields
@@ -185,7 +185,7 @@ elif selected =="Heart Disease Prediction":
 # Parkinson Prediction Page
                   
 elif selected=="Parkinson's Disease Prediction":
-    st.title("Parkinson Disease")
+    st.title("Parkinson Disease Prediction")
     #Input fields
     col1,col2,col3=st.columns(3)
 
