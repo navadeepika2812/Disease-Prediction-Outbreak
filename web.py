@@ -31,7 +31,7 @@ with st.sidebar:
     )
 
 # Diabetes Prediction Page
-if selected == "Diabetes  Prediction":
+if selected == "Diabetes Prediction":
     st.title("Diabetes Prediction ")
 
     # Input fields
